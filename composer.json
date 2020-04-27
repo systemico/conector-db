@@ -1,0 +1,18 @@
+{
+    "name": "systemico/conector_db",
+    "description": "Singleton pattern to connect database Mysql, PostgreSQL, Oracle, SQL Server, and others.",
+    "authors": [{
+        "name": "Edwin Ariza",
+        "email": "me@edwinariza.com"
+    }],
+    "version": "1.0",
+    "type": "library",
+    "license": "Apache-2.0",
+    "require": {
+        "adodb/adodb-php": "^5.20",
+        "nyholm/psr7": "^1.1"
+    },
+    "autoload": {
+        "classmap":["src/", "src/ConectorDB.php"]
+    }
+}
