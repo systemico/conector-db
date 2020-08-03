@@ -10,9 +10,9 @@ Singleton pattern to connect database Mysql, Postgrs, Oracle, SQL Server, and ot
         public static $DB_NAME="";
     }
     
-------
            
-#Connect example
+#Connect example   
+   
 Example to run a new Database connection. 
 
     require_once dirname(__FILE__)."/../vendor/autoload.php";   
