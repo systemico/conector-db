@@ -1,7 +1,8 @@
 # conector-db
 Singleton pattern to connect database Mysql, Postgrs, Oracle, SQL Server, and others.
 
-# Settings.php example
+# Settings.php example  
+
     class Settings{
         public static $DB_HOST="";
         public static $DB_USER="";
@@ -10,8 +11,10 @@ Singleton pattern to connect database Mysql, Postgrs, Oracle, SQL Server, and ot
     }
     
 ------
-   
-#Connect example    
+           
+#Connect example
+Example to run a new Database connection. 
+
     require_once dirname(__FILE__)."/../vendor/autoload.php";   
     require_once dirname(__FILE__)."/Settings.php";    
     use conector_db\ConectorDB;    
