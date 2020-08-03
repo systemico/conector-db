@@ -8,8 +8,8 @@ Singleton pattern to connect database Mysql, Postgrs, Oracle, SQL Server, and ot
         public static $DB_PASSWORD="";
         public static $DB_NAME="";
     }
-
-#Connect example   
+   
+#Connect example    
     require_once dirname(__FILE__)."/../vendor/autoload.php";  
     require_once dirname(__FILE__)."/Settings.php";  
     use conector_db\ConectorDB;  
